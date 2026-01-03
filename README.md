@@ -25,6 +25,45 @@
 
 BioAiSaaS is a general-purpose biomedical AI agent designed to autonomously execute a wide range of research tasks across diverse biomedical subfields. By integrating cutting-edge large language model (LLM) reasoning with retrieval-augmented planning and code-based execution, BioAiSaaS helps scientists dramatically enhance research productivity and generate testable hypotheses.
 
+## Production Features
+
+BioAiSaaS has been enhanced with production-grade features to support real-world deployment:
+
+### Agent-First Frontend
+- **Dynamic UI Generation**: UI components are automatically generated or collapsed based on agent inference
+- **MCP Integration**: Frontend communicates directly with agents via Model Context Protocol (MCP)
+- **Thinking Process Visualization**: Displays agent's chain-of-thought reasoning in real-time
+- **Built with Lovable**: Modern, responsive interface optimized for agent interactions
+
+### Intelligent Backend Orchestration
+- **Agent Coordination Layer**: Backend manages complex multi-agent workflows using Swarm architecture
+- **Python Sandbox**: Secure execution environment for agent-generated code
+- **Multi-Agent Management**: Sophisticated orchestration of parallel and sequential agent tasks
+
+### Hybrid Database Architecture
+- **Supabase Integration**: Combines vector database (pgvector) with PostgreSQL for optimal performance
+- **Multi-User Support**: Secure authentication and user-specific agent instances
+- **Payment Integration**: Tracks usage and billing per user
+- **File-Based Agent Tools**: No-database architecture for agent tools using filesystem storage and external APIs
+
+### Authentication & Security
+- **Email Verification**: Standard email-based authentication
+- **WeChat Login**: Integrated social login for Chinese users
+- **Secure Sessions**: Token-based authentication with automatic expiration
+
+### Flexible Payment System
+- **Multiple Payment Methods**: WeChat Pay and Alipay integration
+- **Usage-Based Billing**: Real-time metering of token consumption
+- **Outcome-Based Payment**: Pay-per-successful-task pricing model
+- **Automated Micro-Payments**: Agent can automatically process small payment authorizations
+- **Billing Dashboard**: Transparent usage tracking and cost breakdown
+
+For detailed documentation on these features, see:
+- [Architecture Guide](docs/ARCHITECTURE_PROD.md)
+- [Frontend Integration](docs/FRONTEND_INTEGRATION.md)  
+- [Billing & Authentication](docs/BILLING_AND_AUTH.md)
+- [Database Schema](docs/supabase_schema.sql)
+
 
 ## Quick Start
 
