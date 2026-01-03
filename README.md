@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./figs/bioaisaas_logo.png" alt="BioAiSaaS Logo" width="600px" />
-</p>
-
-<p align="center">
 <a href="https://join.slack.com/t/bioaisaasgroup/shared_invite/zt-3avks4913-dotMBt8D_apQnJ3mG~ak6Q">
 <img src="https://img.shields.io/badge/Join-Slack-4A154B?style=for-the-badge&logo=slack" alt="Join Slack" />
 </a>
